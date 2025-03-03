@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extended Form</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+
+  <div class="form-container">
+    <h2>Personal Information Form</h2>
+    <form id="personalForm">
+      <div class="form-group">
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+      </div>
+      <div class="form-group">
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required>
+      </div>
+
+      
+      <!-- PAN and Aadhar -->
+      <div class="form-group">
+        <label for="pan">PAN Card Number</label>
+        <input type="text" id="pan" name="pan" placeholder="Enter your PAN card number" required>
+      </div>
+      <div class="form-group">
+        <label for="adhar">Aadhar Number</label>
+        <input type="text" id="adhar" name="adhar" placeholder="Enter your Aadhar number" required>
+      </div>
+
+      <!-- State and Languages -->
+      <div class="form-group">
+        <label for="state">State</label>
+        <input type="text" id="state" name="state" placeholder="Enter your state" required>
+      </div>
+      <div class="form-group">
+        <label for="languages">Languages You Speak</label>
+        <input type="text" id="languages" name="languages" placeholder="Enter languages you speak" required>
+      </div>
+
+      <!-- Pin Code and College -->
+      <div class="form-group">
+        <label for="pinCode">Pin Code</label>
+        <input type="text" id="pinCode" name="pinCode" placeholder="Enter your pin code" required>
+      </div>
+      <div class="form-group">
+        <label for="collegeName">College Name</label>
+        <input type="text" id="collegeName" name="collegeName" placeholder="Enter your college name" required>
+      </div>
+
+      <!-- Date of Birth, Gender, Nationality -->
+      <div class="form-group">
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob" required>
+      </div>
+    
+
+
+  <h3>Enter Marks for the Subjects</h3>
+  <div class="form-group">
+    <label for="mathsMarks">Maths</label>
+    <input type="number" id="mathsMarks" name="mathsMarks" placeholder="Enter your Maths marks" required>
+  </div>
+  <div class="form-group">
+    <label for="pythonMarks">Python</label>
+    <input type="number" id="pythonMarks" name="pythonMarks" placeholder="Enter your Python marks" required>
+  </div>
+  <div class="form-group">
+    <label for="dsaMarks">DSA</label>
+    <input type="number" id="dsaMarks" name="dsaMarks" placeholder="Enter your DSA marks" required>
+  </div>
+  <div class="form-group">
+    <label for="mpMarks">MP</label>
+    <input type="number" id="mpMarks" name="mpMarks" placeholder="Enter your MP marks" required>
+  </div>
+  <div class="form-group">
+    <label for="mdmMarks">MDM</label>
+    <input type="number" id="mdmMarks" name="mdmMarks" placeholder="Enter your MDM marks" required>
+  </div>
+  <div class="form-group">
+    <label for="oecMarks">OEC</label>
+    <input type="number" id="oecMarks" name="oecMarks" placeholder="Enter your OEC marks" required>
+  </div>
+
+  <button type="button" onclick="calculateAverage()">Submit and Calculate</button>
+</form>
+
+<div id="result"></div>
+</div>
+</form>
+</div>
+</body>
+</html>
+
+
